@@ -14,7 +14,7 @@ export default {
     if (trace)
       await page.context().tracing.start({ screenshots: true, snapshots: true });
 
-    await page.goto('https://demo.playwright.dev/todomvc');
+    await page.goto('https://app.shinigami.asia');
 
     const TODO_ITEMS = todos.length > 0 ? todos : [
       'buy some cheese',
